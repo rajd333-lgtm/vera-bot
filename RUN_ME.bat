@@ -9,14 +9,14 @@ echo ========================================
 echo.
 
 :: ── SET YOUR GEMINI API KEY HERE ─────────────────────────────────────────────
-set GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE
+set GEMINI_API_KEY=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
 :: ─────────────────────────────────────────────────────────────────────────────
 
-if "%GEMINI_API_KEY%"=="YOUR_GEMINI_API_KEY_HERE" (
+if "%GEMINI_API_KEY%"=="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" (
     echo [FAIL] You forgot to set your Gemini API key!
     echo.
     echo   1. Open this file in Notepad
-    echo   2. Replace YOUR_GEMINI_API_KEY_HERE with your real key
+    echo   2. Replace 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 with your real key
     echo   3. Get a free key at: https://aistudio.google.com
     echo.
     pause

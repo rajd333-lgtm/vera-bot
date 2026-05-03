@@ -20,23 +20,23 @@ Author: magicpin AI Challenge Team
 # ██████  CONFIGURATION - EDIT THIS SECTION ██████
 # =============================================================================
 
-# Your bot's URL (where your bot is running)
 BOT_URL = "http://localhost:8080"
 
 # Choose your LLM provider: "openai", "anthropic", "gemini", "deepseek", "groq", "ollama", "openrouter"
-LLM_PROVIDER = "gemini"
+LLM_PROVIDER = "openrouter"
 
 # Your API key (paste your key here)
-LLM_API_KEY = "YOUR_GEMINI_API_KEY_HERE"  # <-- Replace with your key from aistudio.google.com
+LLM_API_KEY = "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"
 
 # Model to use (leave empty for default, or specify like "gpt-4o", "claude-3-5-sonnet-20241022", etc.)
-LLM_MODEL = "gemini-1.5-flash"  # fast + free tier
+LLM_MODEL = "openai/gpt-3.5-turbo"
 
 # For Ollama only: local server URL
 OLLAMA_URL = "http://localhost:11434"
 
 # Which test to run by default
 TEST_SCENARIO = "all"
+
 
 # =============================================================================
 # ██████  END OF CONFIGURATION - DON'T EDIT BELOW THIS LINE ██████
